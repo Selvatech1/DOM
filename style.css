@@ -1,0 +1,82 @@
+body {
+    background-color: rgba(22, 114, 126, 0.612);
+    
+  }
+  
+  h1 {
+    color: blue;
+  }
+  p {
+    color: rgb(222, 205, 221);
+  }
+  .bg-success {
+    --bs-bg-opacity: 1;
+    background-color: rgba(var(--bs-success-rgb), var(--bs-bg-opacity)) !important;
+  }
+  /* styles.css */
+
+/* Basic styling for the form */
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 40px;
+    border: 1px solid #ccc;
+    border-radius: 45px;
+    background-color: #f9f9f9;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 15px;
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  input[type="checkbox"] {
+    margin-right: 5px;
+  }
+  
+  button[type="submit"] {
+    padding: 10px 20px;
+    background-color: #c37b9f;
+    color: #f5afaf;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #ebede7;
+  }
+  
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  thead {
+    background-color: #f2f2f2;
+  }
+  
+  thead th {
+    padding: 10px;
+    text-align: left;
+  }
+  
+  tbody td {
+    border-top: 1px solid #ccc;
+    padding: 10px;
+  }
+  
+
+  
